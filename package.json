@@ -1,0 +1,27 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "this project is for the tutorial of intro to backend",
+  "homepage": "https://github.com/Rndraha21/intro-to-backend#readme",
+  "bugs": {
+    "url": "https://github.com/Rndraha21/intro-to-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rndraha21/intro-to-backend.git"
+  },
+  "license": "ISC",
+  "author": "Robin Ndraha",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.20.0"
+  }
+}
